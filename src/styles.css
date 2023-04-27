@@ -1,0 +1,47 @@
+  @import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&display=swap');
+  @import url('https://fonts.cdnfonts.com/css/open-sauce-one');
+
+  body {
+      margin: 0;
+  }
+
+  #header {
+      background-color: #423C68;
+      display: flex;
+      justify-content: center;
+
+  }
+
+  .logo-section {
+      font-family: 'Jacques Francois', serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      margin: 3vh;
+  }
+
+  .logo-img {
+      display: flex;
+      align-self: center;
+      justify-content: center;
+      width: 25vh;
+      height: auto;
+  }
+
+  .title {
+      display: flex;
+      justify-content: center;
+  }
+
+  .group {
+      font-size: 2em;
+  }
+
+  .de-la {
+      align-self: center;
+
+  }
+
+  .description {
+      align-self: center;
+  }
