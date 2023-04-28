@@ -50,7 +50,7 @@
   }
 
   .lobby {
-      background-image: url("/img/lobby.jpeg");
+      background-image: url("img/lobby.jpeg");
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
