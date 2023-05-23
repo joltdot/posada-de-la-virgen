@@ -72,7 +72,7 @@
   }
 
   .lobby {
-      background-image: url("img/lobby.jpeg/");
+      background-image: url("/img/lobby.jpeg/");
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
@@ -369,42 +369,42 @@
   }
 
   .tlaxcala {
-      background-image: url("img/estados/tlaxcala.jpeg");
+      background-image: url("/img/estados/tlaxcala.jpeg");
       background-size: cover;
   }
 
   .tabasco {
-      background-image: url("img/estados/tabasco.jpeg");
+      background-image: url("/img/estados/tabasco.jpeg");
       background-size: cover;
   }
 
   .hidalgo {
-      background-image: url("img/estados/hidalgo.jpeg");
+      background-image: url("/img/estados/hidalgo.jpeg");
       background-size: cover;
   }
 
   .puebla {
-      background-image: url("img/estados/puebla.jpeg");
+      background-image: url("/img/estados/puebla.jpeg");
       background-size: cover;
   }
 
   .michoacan {
-      background-image: url("img/estados/michoacan.jpeg");
+      background-image: url("/img/estados/michoacan.jpeg");
       background-size: cover;
   }
 
   .oaxaca {
-      background-image: url("img/estados/oaxaca.jpeg");
+      background-image: url("/img/estados/oaxaca.jpeg");
       background-size: cover;
   }
 
   .chiapas {
-      background-image: url("img/estados/chiapas.jpeg");
+      background-image: url("/img/estados/chiapas.jpeg");
       background-size: cover;
   }
 
   .sanluispotosi {
-      background-image: url("img/estados/sanluispotosi.jpeg");
+      background-image: url("/img/estados/sanluispotosi.jpeg");
       background-size: cover;
   }
 
@@ -414,7 +414,7 @@
       position: relative;
       width: 100%;
       height: 100vh;
-      background-image: url("img/kiosko.jpeg");
+      background-image: url("/img/kiosko.jpeg");
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
