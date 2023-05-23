@@ -67,10 +67,12 @@
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
-
+      position: relative;
       width: 100%;
       height: 100vh;
   }
+
+
 
   .marquee {
       display: flex;
@@ -78,10 +80,10 @@
       gap: 1vh;
       background: none;
       color: white;
-      opacity: 0.3;
-      position: absolute;
-      z-index: 9999;
+      opacity: 0.6;
+      position: relative;
 
+      max-width: 100%;
 
   }
 
@@ -109,8 +111,13 @@
           transform: translateX(0);
       }
 
+      50% {
+          text-shadow: 0px 0px 15px white;
+      }
+
       100% {
           transform: translateX(-100%);
+          box
       }
   }
 
@@ -137,26 +144,33 @@
           transform: translateX(-100%);
       }
 
+      50% {
+          text-shadow: 0 0 15px white;
+      }
+
       100% {
           transform: translateX(0);
       }
   }
 
   .lobby-content {
-      top: 100vh;
+      /* top: 100vh; */
       font-family: 'Open Sauce Two', sans-serif;
       color: white;
-      position: absolute;
-      z-index: 9999;
-      max-width: 100%;
+      position: relative;
+
+
       display: flex;
       flex-direction: column;
       background-color: #28415f;
-      padding: 10vh 20vh;
+      padding: 10vh 15vh;
       gap: 5vh;
 
 
+
+
   }
+
 
   .lobby-content h1 {
       font-size: 4rem;
@@ -179,6 +193,9 @@
       display: flex;
       gap: 10vh;
   }
+
+
+
 
   .section-two {
       display: flex
@@ -308,4 +325,145 @@
       transform: translate(-15px, -15px);
 
 
+  }
+
+  .section-two {
+      display: flex;
+      flex-direction: column;
+
+  }
+
+  .showcase {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2vh;
+
+  }
+
+  .square {
+      width: 45vh;
+      height: 35vh;
+      background-color: aqua;
+      border-radius: 20px;
+      text-align: center;
+      vertical-align: middle;
+      line-height: 35vh;
+      font-size: 1.75rem;
+      font-weight: 800;
+      text-shadow: 0px 0px 10px black;
+      border: 5px solid #0f2e5a;
+
+
+  }
+
+  .tlaxcala {
+      background-image: url("/img/estados/tlaxcala.jpeg");
+      background-size: cover;
+  }
+
+  .tabasco {
+      background-image: url("/img/estados/tabasco.jpeg");
+      background-size: cover;
+  }
+
+  .hidalgo {
+      background-image: url("/img/estados/hidalgo.jpeg");
+      background-size: cover;
+  }
+
+  .puebla {
+      background-image: url("/img/estados/puebla.jpeg");
+      background-size: cover;
+  }
+
+  .michoacan {
+      background-image: url("/img/estados/michoacan.jpeg");
+      background-size: cover;
+  }
+
+  .oaxaca {
+      background-image: url("/img/estados/oaxaca.jpeg");
+      background-size: cover;
+  }
+
+  .chiapas {
+      background-image: url("/img/estados/chiapas.jpeg");
+      background-size: cover;
+  }
+
+  .sanluispotosi {
+      background-image: url("/img/estados/sanluispotosi.jpeg");
+      background-size: cover;
+  }
+
+
+
+  .prefooter {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      background-image: url("/img/kiosko.jpeg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      text-align: center;
+  }
+
+
+
+  .prefooter span {
+      font-family: 'Open Sauce One';
+      font-weight: 800;
+      font-size: 4rem;
+      color: white;
+      text-shadow: 0 0 10px black;
+      line-height: 100vh;
+
+  }
+
+  .footer {
+      display: flex;
+      color: var(--blue);
+      height: 40vh;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Open Sauce One', sans-serif;
+      font-size: 1.2rem;
+
+
+  }
+
+  .footer-logo {
+      width: 30vh;
+      height: 30vh;
+  }
+
+  .footer-links {}
+
+  .footer a {}
+
+  .footer a:hover {
+      border-bottom: white solid 1px;
+  }
+
+  @media screen and (max-width:1200px) {
+
+      .lobby-content {
+          padding: 10vh 10vh;
+      }
+
+      .section-one {
+          flex-direction: column;
+      }
+
+      .text {
+          width: auto;
+      }
+
+      .images {
+          width: auto;
+      }
   }
