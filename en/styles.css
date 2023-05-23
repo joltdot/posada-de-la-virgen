@@ -408,6 +408,11 @@
       background-size: cover;
   }
 
+  .chihuahua {
+      background-image: url("img/estados/chihuahua.jpeg");
+      background-size: cover;
+  }
+
 
 
   .prefooter {
