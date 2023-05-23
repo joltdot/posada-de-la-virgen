@@ -16,6 +16,16 @@
       background-color: var(--blue);
   }
 
+  .language {
+      position: fixed;
+      z-index: 9999;
+      font-family: 'Open Sauce One', sans-serif;
+      font-size: 2rem;
+      top: 0;
+      color: white;
+      margin: 2vh;
+  }
+
   #header {
       background-color: var(--blue);
       z-index: 9;
@@ -441,9 +451,7 @@
       height: 30vh;
   }
 
-  .footer-links {}
 
-  .footer a {}
 
   .footer a:hover {
       border-bottom: white solid 1px;
@@ -465,5 +473,9 @@
 
       .images {
           width: auto;
+      }
+
+      .prefooter span {
+          font-size: 1.5em;
       }
   }
